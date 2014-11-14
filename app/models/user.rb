@@ -26,7 +26,8 @@ class User < ActiveRecord::Base
                             uid: auth.uid,
                             email: auth.info.email,
                            image: auth.info.image,
-                           
+                           description: auth.info.summary,
+                           headline: auth.info.headline,
                             password: Devise.friendly_token[0,20],
                           )
       end

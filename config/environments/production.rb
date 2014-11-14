@@ -83,7 +83,7 @@ Rails.application.configure do
 
 
   # ADDED for devise
-  config.action_mailer.default_url_options = { :host => 'http://ombud.herokuapp.com/'}
+  config.action_mailer.default_url_options = { :host => 'http://ombud.herokuapp.com/' }
 
 
 end
