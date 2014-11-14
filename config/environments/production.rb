@@ -79,4 +79,11 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+
+
+  # ADDED for devise
+  config.action_mailer.default_url_options = { :host => 'http://ombud.herokuapp.com/'}
+
+
 end
