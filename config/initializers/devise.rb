@@ -259,4 +259,9 @@ Devise.setup do |config|
 
 
 
+  #omniauth 1 linked in 
+  require 'omniauth-linkedin'
+  config.omniauth :linkedin, ENV["LINKEDIN_API_KEY"], ENV["LINKEDIN_SECRET_KEY"]
+
+
 end

@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-#Standard
+# Standard
 gem 'rails', '4.1.4'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
@@ -12,18 +12,23 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 
-#Bootstrap
+# Bootstrap
 gem 'bootstrap-sass'
 
-#Heroku
+# Heroku
 group :development, :test do
-     gem 'sqlite3'
+	gem 'sqlite3'
 end
-
 group :production do
-     gem 'pg'
-     gem 'rails_12factor'
+  gem 'pg'
+  gem 'rails_12factor'
 end
 
-#Devise
+# Devise
 gem 'devise'
+
+# Omniauth
+gem 'omniauth-linkedin'
+
+# Figaro for keeping API key and Secret keys. . . secret.
+gem 'figaro'
