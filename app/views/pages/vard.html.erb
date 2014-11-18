@@ -1,4 +1,12 @@
-<h1>This is your vard</h1>
+<div class="container">
+  <div class="page-header">
+  </div>
 
-<%= current_user.name %>
-<%= image_tag current_user.image %>
+  <h1><%= current_user.name %> <%= current_user.last_name %></h1><br>
+
+  <%= image_tag current_user.image %><br>
+
+  <h3><%= current_user.description %></h3><br>
+  <h3><%= current_user.headline %></h3>
+
+</div>

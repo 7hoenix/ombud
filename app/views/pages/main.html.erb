@@ -1,12 +1,10 @@
 
+<div class="container">
+	<div class="page-header">
+	</div>
+			<h1>Generate Your Personal Vard (Virtual Business Card) by clicking below</h1>
 
-<div class="jumbotron">
-	<h1>Main Page for login and user auth HEROKUS</h1>
-	Click here to <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary" %>
-
-	<%= link_to image_tag('linkedin-icon75-header.png', id: 'linkedin-login-image', alt: 'Login with LinkedIn'), user_omniauth_authorize_path(:linkedin) %>
-
-	<%= debug User.find_by_id(1) %>
+	<p class="lead"><%= link_to image_tag('linkedinlong310W.png', id: 'linkedin-login-image', alt: 'Sign in with Linkedin'), user_omniauth_authorize_path(:linkedin) %>
 
 
 </div>
