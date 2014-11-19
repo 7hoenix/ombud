@@ -150,6 +150,7 @@ DEPENDENCIES
   figaro
   jbuilder (~> 2.0)
   jquery-rails
+  omniauth
   omniauth-linkedin
   pg
   rails (= 4.1.4)
