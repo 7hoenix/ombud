@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141114223543) do
+ActiveRecord::Schema.define(version: 20141120002014) do
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false
@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 20141114223543) do
     t.string   "name"
     t.string   "image"
     t.string   "last_name"
-    t.text     "description"
+    t.string   "description"
     t.string   "headline"
   end
 
